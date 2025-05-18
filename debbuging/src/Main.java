@@ -5,6 +5,7 @@ public class Main {
         System.out.println("\033[31mFinalizou do programa no método main.");
     }
 
+    // Quando não informa se o metodo é public ou private, ele se torna public por padrão
     static void a() {
         System.out.println("\033[32mEntrou no método a.");
         b();
