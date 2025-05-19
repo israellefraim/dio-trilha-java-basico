@@ -6,7 +6,7 @@ public class Main {
     }
 
     // Quando não informa se o metodo é public ou private, ele se torna public por padrão
-    static void a() {
+     static void a() {
         System.out.println("\033[32mEntrou no método a.");
         b();
         System.out.println("\033[32mFinalizou o método a.");
@@ -21,7 +21,7 @@ public class Main {
 
     static void c(){
         System.out.println("\033[34mEntrou no método c.");
-        //Thread.dumpStack();
+        Thread.dumpStack();
         System.out.println("\033[34mFinalizou o método c.");
     }
 
